@@ -1,0 +1,176 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+/* HEADER */
+header {
+  background-color: #1e1e1e;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  border-bottom: 4px solid #d4af37; /* dorado */
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+header nav a {
+  color: #d4af37;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* CARRUSEL */
+.carousel {
+  position: relative;
+  overflow: hidden;
+  height: 85vh;
+  width: 100vw;
+}
+
+.carousel-track {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  transition: transform 0.8s ease-in-out;
+}
+
+.hero {
+  min-width: 100vw;
+  height: 100%;
+  position: relative;
+}
+
+.hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 100;
+  background-color: rgba(30, 30, 30, 0.7);
+  color: white;
+  border: none;
+  font-size: 2rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.btn-prev { left: 10px; }
+.btn-next { right: 10px; }
+
+/* HERO CONTENT */
+.hero-content {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.hero-content h2 {
+  margin-bottom: 1rem;
+  color: white;
+  text-shadow: 1px 1px 4px #000;
+}
+
+.hero-content button {
+  background-color: #d4af37;
+  color: #1e1e1e;
+  border: none;
+  padding: 0.7rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.hero-content button:hover {
+  background-color: #b9902f;
+}
+
+/* TARJETAS */
+.centrado {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.card {
+  width: 220px;
+  background-color: #fff;
+  border-radius: 8px;
+  border: 2px solid #d4af37;
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.card img {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+}
+
+.card h3 {
+  margin-top: 0.5rem;
+  font-weight: bold;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* BOTONES NAVEGACION */
+.btn-label {
+  background-color: #d4af37;
+  color: black;
+  padding: 0.75rem 2rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn-label:hover {
+  background-color: #b9902f;
+}
+
+/* FOOTER */
+footer {
+  background-color: #1e1e1e;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  border-top: 4px solid #d4af37;
+}
+
+.logo-img {
+  width: 70px;
+}
