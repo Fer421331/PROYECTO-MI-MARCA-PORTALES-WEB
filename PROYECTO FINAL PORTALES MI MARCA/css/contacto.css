@@ -1,0 +1,198 @@
+/* ================================
+   RESET GENERAL
+================================ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f3f3f3;
+}
+
+/* ================================
+   HEADER
+================================ */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: #111;
+    color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-img {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+header nav ul li a:hover,
+header nav ul li a.activo {
+    color: #ffcc00;
+}
+
+/* ================================
+   CONTENEDOR CONTACTO
+================================ */
+.contacto-container {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.contacto-container h1 {
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+}
+
+.contacto-container p {
+    font-size: 1rem;
+    color: #333;
+}
+
+/* ================================
+   SECCIÓN PRINCIPAL (FORM + INFO)
+================================ */
+.contacto-flex {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+/* FORMULARIO */
+.formulario {
+    background: white;
+    padding: 30px;
+    border-radius: 14px;
+    width: 330px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+.formulario label {
+    display: block;
+    text-align: left;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.formulario input,
+.formulario textarea {
+    width: 100%;
+    margin-top: 6px;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 0.95rem;
+}
+
+textarea {
+    height: 130px;
+    resize: none;
+}
+
+button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 14px;
+    background: #222;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #444;
+}
+
+/* ================================
+   TARJETA DE INFORMACIÓN
+================================ */
+.info {
+    background: white;
+    padding: 30px;
+    width: 330px;
+    border-radius: 14px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+    text-align: left;
+}
+
+.info h2 {
+    margin-bottom: 10px;
+}
+
+.info p {
+    margin: 8px 0;
+}
+
+.info ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.info ul li {
+    margin: 6px 0;
+}
+
+/* ================================
+   BOTONES DE NAVEGACIÓN
+================================ */
+.botones-navegacion {
+    margin: 40px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.btn-label {
+    background: #222;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 0.9rem;
+}
+
+.btn-label:hover {
+    background: #444;
+}
+
+/* ================================
+   FOOTER
+================================ */
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
