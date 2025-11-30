@@ -3,9 +3,6 @@ body {
     background-color: #f6f1eb;
     margin: 0;
 }
-/* ============================
-   HEADER
-============================ */
 header {
     display: flex;
     justify-content: space-between;
@@ -110,8 +107,6 @@ h2 {
     background-color: #c08f54;
 }
 
-/* MODAL */
-
 .modal {
     display: none;
     position: fixed;
@@ -155,9 +150,6 @@ input {
     border-radius: 8px;
     cursor: pointer;
 }
-/* ================================
-   BOTONES DE NAVEGACIÓN
-================================ */
 .botones-navegacion {
     margin: 40px 0;
     display: flex;
@@ -179,9 +171,6 @@ input {
 .btn-label:hover {
     background: #444;
 }
-/* ================================
-   FOOTER
-================================ */
 footer {
     background: #111;
     color: white;
