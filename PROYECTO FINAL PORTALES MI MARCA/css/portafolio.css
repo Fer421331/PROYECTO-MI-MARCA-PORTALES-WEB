@@ -187,7 +187,6 @@ footer {
     padding: 1rem;
 }
 
-/* ===== RESPONSIVE ===== */
 @media (min-width: 720px) {
     header {
         flex-direction: row;
