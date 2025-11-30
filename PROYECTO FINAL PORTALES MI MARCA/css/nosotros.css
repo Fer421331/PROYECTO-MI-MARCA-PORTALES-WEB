@@ -9,7 +9,6 @@ body {
     background-color: #f2f2f2;
 }
 
-/* HEADER */
 header {
     background-color: #1e1e1e;
     color: white;
@@ -49,7 +48,6 @@ header nav a:hover {
     transition: 0.3s;
 }
 
-/* HERO ESTÁTICO */
 .hero-static {
     width: 100vw;
     height: 50vh;
@@ -78,7 +76,6 @@ header nav a:hover {
     border-bottom: 3px solid #d4af37;
 }
 
-/* TEXTO INTRODUCTORIO */
 .texto-intro {
     max-width: 800px;
     margin: 3rem auto;
@@ -96,7 +93,6 @@ header nav a:hover {
     color: #333;
 }
 
-/* TARJETAS (Misión, Visión, Valores) */
 .centrado {
     display: flex;
     justify-content: center;
@@ -133,28 +129,25 @@ header nav a:hover {
     color: #555;
 }
 
-/* BOTONES DE NAVEGACIÓN */
 .botones-navegacion {
-    padding-bottom: 2rem;
+    margin: 40px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
 }
 
 .btn-label {
-    background-color: #d4af37;
-    color: black;
-    padding: 0.75rem 2rem;
-    border-radius: 6px;
+    background: #222;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 8px;
     cursor: pointer;
-    font-weight: bold;
     transition: 0.3s;
-    display: inline-block;
-    margin-bottom: 5px;
 }
 
-.btn-label:hover {
-    background-color: #b9902f;
-}
+.btn-label:hover { background: #444; }
 
-/* FOOTER */
 footer {
     background-color: #1e1e1e;
     color: white;
