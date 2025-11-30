@@ -194,8 +194,6 @@ footer {
     padding: 1rem;
 }
 
-/* ===== MEDIA QUERIES ===== */
-/* Tablet: 720px */
 @media (min-width: 720px) {
     header {
         flex-direction: row;
@@ -231,8 +229,6 @@ footer {
         grid-template-columns: repeat(2, 1fr);
     }
 }
-
-/* Desktop: 1024px */
 @media (min-width: 1024px) {
     .hero {
         min-height: 70vh;
@@ -247,8 +243,6 @@ footer {
         padding: 4rem 2rem;
     }
 }
-
-/* Wide: 1300px */
     @media (min-width: 1300px) {
     .container-xl {
         max-width: 1200px; margin: 0 auto;
