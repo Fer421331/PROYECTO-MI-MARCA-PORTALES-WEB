@@ -1,10 +1,10 @@
-// Estado global de filtros y búsqueda
+
 const state = {
-  activeCategories: new Set(), // categorías seleccionadas
+  activeCategories: new Set(), 
   query: ""
 };
 
-// Función para aplicar filtros combinados
+
 function applyFilters() {
   const productos = document.querySelectorAll(".producto");
   const noResultsMsg = document.getElementById("noResultsMsg");
@@ -29,7 +29,6 @@ function applyFilters() {
     }
   });
 
-  // Mostrar/ocultar mensaje de "no resultados"
   if (noResultsMsg) {
     if (visibleCount === 0) {
       noResultsMsg.style.display = "block";
@@ -39,14 +38,12 @@ function applyFilters() {
   }
 }
 
-// Filtros por categoría (multiselección)
 const filterButtons = document.querySelectorAll(".filter-buttons button");
 
 filterButtons.forEach(button => {
   button.addEventListener("click", () => {
     const category = button.getAttribute("data-filter");
 
-    // Toggle de clase activa y set de categorías
     if (button.classList.contains("active-filter")) {
       button.classList.remove("active-filter");
       state.activeCategories.delete(category);
@@ -59,7 +56,6 @@ filterButtons.forEach(button => {
   });
 });
 
-// Búsqueda en tiempo real
 const searchInput = document.getElementById("searchInput");
 
 function debounce(fn, delay = 200) {
@@ -79,7 +75,6 @@ if (searchInput) {
   searchInput.addEventListener("input", onSearch);
 }
 
-// Animación al hacer scroll (mostrar grid)
 document.addEventListener("scroll", () => {
   const grid = document.querySelector(".grid-productos");
   if (!grid) return;
@@ -89,9 +84,8 @@ document.addEventListener("scroll", () => {
   }
 });
 
-// Menú hamburguesa para móviles
 document.addEventListener("DOMContentLoaded", () => {
-  // Crear mensaje de "no resultados" si no existe
+
   let noResultsMsg = document.getElementById("noResultsMsg");
   if (!noResultsMsg) {
     noResultsMsg = document.createElement("p");
@@ -111,17 +105,17 @@ document.addEventListener("DOMContentLoaded", () => {
     grid.classList.add("visible");
   }
 
-  // Lógica del menú hamburguesa
+
   const nav = document.querySelector("header nav ul");
   const burger = document.createElement("div");
   burger.classList.add("burger");
-  burger.innerHTML = "&#9776;"; // ícono ☰
+  burger.innerHTML = "&#9776;"; 
   burger.style.cursor = "pointer";
   burger.style.fontSize = "1.5rem";
   burger.style.color = "#d4af37";
   burger.style.display = "block";
 
-  // Insertar el botón burger antes del nav en móvil
+  
   if (window.innerWidth < 720) {
     nav.style.display = "none";
     document.querySelector("header").insertBefore(burger, nav);
@@ -137,7 +131,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
-  // Ajustar al cambiar tamaño de pantalla
+  
   window.addEventListener("resize", () => {
     if (window.innerWidth >= 720) {
       nav.style.display = "flex";
