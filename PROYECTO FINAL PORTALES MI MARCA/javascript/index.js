@@ -11,16 +11,17 @@ document.addEventListener("DOMContentLoaded", () => {
     carouselTrack.style.transform = `translateX(-${index * 100}vw)`;
   }
 
-  // Botones manuales
+
   const btnNext = document.querySelector('.btn-next');
   const btnPrev = document.querySelector('.btn-prev');
 
   if (btnNext) btnNext.addEventListener('click', () => moveToSlide(index + 1));
   if (btnPrev) btnPrev.addEventListener('click', () => moveToSlide(index - 1));
 
-  // 🚀 Carrusel automático cada 4 seg
+
   setInterval(() => {
     moveToSlide(index + 1);
   }, 4000);
 
 });
+
