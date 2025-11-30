@@ -1,6 +1,4 @@
-/* ================================
-   RESET GENERAL
-================================ */
+
 * {
     margin: 0;
     padding: 0;
@@ -11,10 +9,6 @@ body {
     font-family: Arial, sans-serif;
     background: #f3f3f3;
 }
-
-/* ================================
-   HEADER
-================================ */
 header {
     display: flex;
     justify-content: space-between;
@@ -54,10 +48,6 @@ header nav ul li a:hover,
 header nav ul li a.activo {
     color: #ffcc00;
 }
-
-/* ================================
-   CONTENEDOR CONTACTO
-================================ */
 .contacto-container {
     padding: 40px 20px;
     text-align: center;
@@ -73,9 +63,6 @@ header nav ul li a.activo {
     color: #333;
 }
 
-/* ================================
-   SECCIÓN PRINCIPAL (FORM + INFO)
-================================ */
 .contacto-flex {
     display: flex;
     justify-content: center;
@@ -85,7 +72,6 @@ header nav ul li a.activo {
     flex-wrap: wrap;
 }
 
-/* FORMULARIO */
 .formulario {
     background: white;
     padding: 30px;
@@ -132,10 +118,6 @@ button {
 button:hover {
     background: #444;
 }
-
-/* ================================
-   TARJETA DE INFORMACIÓN
-================================ */
 .info {
     background: white;
     padding: 30px;
@@ -162,9 +144,6 @@ button:hover {
     margin: 6px 0;
 }
 
-/* ================================
-   BOTONES DE NAVEGACIÓN
-================================ */
 .botones-navegacion {
     margin: 40px 0;
     display: flex;
@@ -187,9 +166,6 @@ button:hover {
     background: #444;
 }
 
-/* ================================
-   FOOTER
-================================ */
 footer {
     background: #111;
     color: white;
