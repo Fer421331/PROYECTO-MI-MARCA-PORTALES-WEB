@@ -1,6 +1,4 @@
-/* ============================
-   RESET
-============================ */
+
 * {
     margin: 0;
     padding: 0;
@@ -11,10 +9,6 @@ body {
     font-family: Arial, sans-serif;
     background: #f4f4f4;
 }
-
-/* ============================
-   HEADER
-============================ */
 header {
     display: flex;
     justify-content: space-between;
@@ -54,10 +48,6 @@ header nav ul li a:hover,
 header nav ul li a.activo {
     color: #ffcc00;
 }
-
-/* ============================
-   TITULO Y TEXTO
-============================ */
 .encabezado-clientes {
     background: #222;
     color: white;
@@ -70,9 +60,6 @@ header nav ul li a.activo {
     margin-bottom: 10px;
 }
 
-/* ============================
-   GRID ORDENADO
-============================ */
 .clientes-grid {
     padding: 50px 40px;
     display: grid;
@@ -80,16 +67,13 @@ header nav ul li a.activo {
     gap: 30px;
 }
 
-/* ============================
-   TARJETAS
-============================ */
 .cliente-card {
     background: white;
     padding: 25px;
     border-radius: 14px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.15);
     text-align: center;
-    height: 260px; /* Misma altura para todas */
+    height: 260px; 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -101,28 +85,20 @@ header nav ul li a.activo {
     box-shadow: 0 8px 20px rgba(0,0,0,0.22);
 }
 
-/* ============================
-   LOGOS
-============================ */
+
 .cliente-card img {
     width: 100%;
-    height: 150px; /* Tamaño fijo */
-    object-fit: contain; /* Mantiene proporciones */
+    height: 150px; 
+    object-fit: contain; 
     padding: 10px;
 }
 
-/* ============================
-   NOMBRE DEL CLIENTE
-============================ */
 .cliente-card h3 {
     margin-top: 10px;
     font-size: 1.1rem;
     color: #333;
 }
 
-/* ============================
-   BOTONES NAVEGACIÓN
-============================ */
 .botones-navegacion {
     margin: 40px 0;
     display: flex;
@@ -144,9 +120,6 @@ header nav ul li a.activo {
     background: #444;
 }
 
-/* ============================
-   FOOTER
-============================ */
 footer {
     background: #111;
     color: white;
