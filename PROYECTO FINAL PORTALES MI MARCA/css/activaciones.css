@@ -132,9 +132,7 @@ header nav ul li a.activo {
 .modal-content h3 {
     margin-top: 0;
 }
-/* ================================
-   BOTONES DE NAVEGACIÓN
-================================ */
+
 .botones-navegacion {
     margin: 40px 0;
     display: flex;
@@ -156,9 +154,7 @@ header nav ul li a.activo {
 .btn-label:hover {
     background: #444;
 }
-/* ================================
-   FOOTER
-================================ */
+
 footer {
     background: #111;
     color: white;
