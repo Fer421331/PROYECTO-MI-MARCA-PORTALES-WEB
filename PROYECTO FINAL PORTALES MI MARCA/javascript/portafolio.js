@@ -1,4 +1,4 @@
-// Animación al hacer scroll
+
 document.addEventListener("scroll", () => {
     const grid = document.querySelector(".grid-proyectos");
     if (!grid) return;
@@ -8,10 +8,10 @@ document.addEventListener("scroll", () => {
     }
 });
 
-// Ejecutar también al cargar la página
 document.addEventListener("DOMContentLoaded", () => {
     const grid = document.querySelector(".grid-proyectos");
     if (grid && grid.getBoundingClientRect().top < window.innerHeight - 100) {
         grid.classList.add("visible");
     }
 });
+
