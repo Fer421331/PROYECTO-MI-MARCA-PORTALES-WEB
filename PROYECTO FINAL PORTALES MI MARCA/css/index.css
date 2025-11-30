@@ -9,7 +9,6 @@ body {
   background-color: #f2f2f2;
 }
 
-/* HEADER */
 header {
   background-color: #1e1e1e;
   color: white;
@@ -39,7 +38,6 @@ header nav a {
   font-weight: bold;
 }
 
-/* CARRUSEL */
 .carousel {
   position: relative;
   overflow: hidden;
@@ -83,7 +81,6 @@ header nav a {
 .btn-prev { left: 10px; }
 .btn-next { right: 10px; }
 
-/* HERO CONTENT */
 .hero-content {
   position: absolute;
   top: 60%;
@@ -113,7 +110,6 @@ header nav a {
   background-color: #b9902f;
 }
 
-/* TARJETAS */
 .centrado {
   display: flex;
   justify-content: center;
@@ -146,8 +142,6 @@ header nav a {
 .card:hover {
   transform: scale(1.05);
 }
-
-/* BOTONES NAVEGACION */
 .btn-label {
   background-color: #d4af37;
   color: black;
@@ -161,8 +155,6 @@ header nav a {
 .btn-label:hover {
   background-color: #b9902f;
 }
-
-/* FOOTER */
 footer {
   background-color: #1e1e1e;
   color: white;
