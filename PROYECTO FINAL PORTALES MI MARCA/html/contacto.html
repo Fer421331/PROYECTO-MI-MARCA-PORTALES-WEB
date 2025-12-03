@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Mi Marca</title>
+    <link rel="stylesheet" href="../css/contacto.css">
+</head>
+<body>
+
+
+    <header>
+        <div class="logo">
+            <img src="../imagenes/Logo.jpg" alt="Logo Mi Marca" class="logo-img">
+            <h1>MI MARCA</h1>
+        </div>
+
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="contacto.html" class="activo">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <section class="contacto-container">
+            <h1>Contactanos</h1>
+            <p>Estamos listos para ayudarte con tu proyecto o activacion.</p>
+
+
+            <div class="contacto-flex">
+               
+                <form class="formulario" id="formContacto">
+                    <label>Nombre:</label>
+                    <input type="text" id="nombre" required>
+
+
+                    <label>Correo:</label>
+                    <input type="email" id="correo" required>
+
+
+                    <label>Mensaje:</label>
+                    <textarea id="mensaje" required></textarea>
+
+
+                    <button type="submit">Enviar mensaje</button>
+                </form>
+
+
+                <div class="info">
+                    <h2>Información</h2>
+                    <p><strong>Teléfono:</strong> +504 9999-9999</p>
+                    <p><strong>Correo:</strong> contacto@mimarca.com</p>
+                    <p><strong>Dirección:</strong> San Pedro Sula, Honduras</p>
+
+
+                    <h3>Redes Sociales</h3>
+                    <ul>
+                        <li>Facebook: Mi Marca</li>
+                        <li>Instagram: @mimarca</li>
+                        <li>TikTok: @mimarca.hn</li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </section>
+
+
+        <div class="centrado botones-navegacion">
+            <label class="btn-label" onclick="window.location.href='index.html'">Inicio</label>
+            <label class="btn-label" onclick="window.location.href='portafolio.html'">Portafolio</label>
+            <label class="btn-label" onclick="window.location.href='clientes.html'">Clientes</label>
+            <label class="btn-label" onclick="window.location.href='nosotros.html'">Nosotros</label>
+            <label class="btn-label" onclick="window.location.href='merchandising.html'">Merchandising</label>
+            <label class="btn-label" onclick="window.location.href='material-pop.html'">Material POP</label>
+            <label class="btn-label" onclick="window.location.href='testimonio.html'">Testimonios</label>
+            <label class="btn-label" onclick="window.location.href='servicios.html'">Servicios</label>
+            <label class="btn-label" onclick="window.location.href='activaciones.html'">Activaciones</label>
+        </div>
+
+
+    </main>
+
+
+    <footer id="contacto">
+        <p>© 2025 MI MARCA - Todos los derechos reservados</p>
+    </footer>
+
+
+    <script src="../javascript/contacto.js"></script>
+</body>
+</html>
+
+

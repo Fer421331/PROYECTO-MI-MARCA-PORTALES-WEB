@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Inicio - MI MARCA</title>
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="../imagenes/Logo.jpg" alt="Logo Mi Marca" class="logo-img">
+            <h1>MI MARCA</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="inicio">
+
+    <section class="carousel">
+
+        <button class="carousel-btn btn-prev">⟨</button>
+
+        <div class="carousel-track">
+            <section class="hero">
+                <img src="../imagenes/Slide-1.jpg" alt="Evento elegante">
+                <div class="hero-content">
+                    <h2>Bienvenidos a Mi Marca</h2>
+                    <button onclick="window.location.href='servicios.html'">
+                        Descubrir servicios
+                    </button>
+                </div>
+            </section>
+            <section class="hero">
+                <img src="../imagenes/Slide-2.jpg" alt="Evento corporativo">
+                <div class="hero-content">
+                    <h2>Activaciones Premium</h2>
+                    <button onclick="window.location.href='activaciones.html'">
+                        Ver activaciones
+                    </button>
+                </div>
+            </section>
+
+        </div>
+
+        <button class="carousel-btn btn-next">⟩</button>
+
+    </section>
+    <section id="servicios" class="centrado">
+        <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem; margin: 2rem;">
+
+            <div class="card">
+                <img src="../imagenes/Activaciones.jpg" alt="Activación">
+                <h3>Activaciones</h3>
+                <p>Experiencias memorables</p>
+            </div>
+
+            <div class="card">
+                <img src="../imagenes/Material-pop.jpg" alt="Material POP">
+                <h3>Material POP</h3>
+                <p>Producción y diseño</p>
+            </div>
+
+            <div class="card">
+                <img src="../imagenes/Merchandising.jpg" alt="Merchandising">
+                <h3>Merchandising</h3>
+                <p>Productos promocionales</p>
+            </div>
+
+        </div>
+    </section>
+    <div class="centrado botones-navegacion">
+            <label class="btn-label" onclick="window.location.href='contacto.html'">Contacto</label>
+            <label class="btn-label" onclick="window.location.href='portafolio.html'">Portafolio</label>
+            <label class="btn-label" onclick="window.location.href='clientes.html'">Clientes</label>
+            <label class="btn-label" onclick="window.location.href='nosotros.html'">Nosotros</label>
+            <label class="btn-label" onclick="window.location.href='merchandising.html'">Merchandising</label>
+            <label class="btn-label" onclick="window.location.href='material-pop.html'">Material POP</label>
+            <label class="btn-label" onclick="window.location.href='testimonio.html'">Testimonios</label>
+            <label class="btn-label" onclick="window.location.href='servicios.html'">Servicios</label>
+            <label class="btn-label" onclick="window.location.href='activaciones.html'">Activaciones</label>
+    </div>
+
+    </main>
+
+    <footer id="contacto">
+        <p>© 2025 MI MARCA - Todos los derechos reservados</p>
+    </footer>
+
+    <script src="../javascript/index.js"></script>
+</body>
+</html>

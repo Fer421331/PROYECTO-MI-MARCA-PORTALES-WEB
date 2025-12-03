@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merchandising | Mi Marca</title>
+    <link rel="stylesheet" href="../css/merchandising.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="../imagenes/Logo.jpg" alt="Logo Mi Marca" class="logo-img">
+            <h1>MI MARCA</h1>
+        </div>
+        <div class="searchform">
+            <input type="text" id="searchInput" placeholder="Buscar productos..." />
+        </div>
+        <nav>
+            <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Merchandising Corporativo</h1>
+            <p>Impulsa tu marca mediante productos promocionales de alta calidad.</p>
+            <a href="#productos" class="btn">Explorar Productos</a>
+        </div>
+    </section>
+    <section class="filtros">
+        <h2>Filtrar por categoría</h2>
+        <div class="filter-buttons">
+            <button data-filter="botellas">Botellas</button>
+            <button data-filter="tazas">Tazas</button>
+            <button data-filter="textiles">Textiles</button>
+            <button data-filter="papeleria">Papelería</button>
+            <button data-filter="accesorios">Accesorios</button>
+        </div>
+    </section>
+    <section class="productos" id="productos">
+        <h2>Nuestros Productos</h2>
+
+        <div class="grid-productos">
+            <div class="producto" data-category="botellas">
+                <img src="https://picsum.photos/id/1/400/300" alt="Botellas personalizadas">
+                <h3>Botellas Personalizadas</h3>
+                <p>Diseños exclusivos para promocionar tu marca en eventos y actividades.</p>
+            </div>
+            <div class="producto" data-category="tazas">
+                <img src="https://picsum.photos/id/20/400/300" alt="Tazas corporativas">
+                <h3>Tazas Corporativas</h3>
+                <p>Perfectas para oficinas, campañas internas e identificación de marca.</p>
+            </div>
+            <div class="producto" data-category="textiles">
+                <img src="https://picsum.photos/id/30/400/300" alt="Camisetas promocionales">
+                <h3>Camisetas Promocionales</h3>
+                <p>Textiles personalizados para personal, eventos y activaciones.</p>
+            </div>
+
+            <div class="producto" data-category="textiles">
+                <img src="https://picsum.photos/id/70/400/300" alt="Gorras promocionales">
+                <h3>Gorras Promocionales</h3>
+                <p>Viseras y gorras con tu logo para eventos deportivos y campañas.</p>
+            </div>
+
+            <div class="producto" data-category="textiles">
+                <img src="https://picsum.photos/id/80/400/300" alt="Mochilas corporativas">
+                <h3>Mochilas Corporativas</h3>
+                <p>Accesorios útiles y duraderos para tus empleados y clientes.</p>
+            </div>
+            <div class="producto" data-category="papeleria">
+                <img src="https://picsum.photos/id/40/400/300" alt="Libretas corporativas">
+                <h3>Libretas Corporativas</h3>
+                <p>Material de oficina con tu marca para clientes y empleados.</p>
+            </div>
+
+            <div class="producto" data-category="papeleria">
+                <img src="https://picsum.photos/id/90/400/300" alt="Plumas promocionales">
+                <h3>Plumas Promocionales</h3>
+                <p>Instrumentos de escritura personalizados para tu marca.</p>
+            </div>
+
+            <div class="producto" data-category="papeleria">
+                <img src="https://picsum.photos/id/100/400/300" alt="Calendarios corporativos">
+                <h3>Calendarios Corporativos</h3>
+                <p>Organiza el año con estilo y presencia de marca.</p>
+            </div>
+            <div class="producto" data-category="accesorios">
+                <img src="https://picsum.photos/id/50/400/300" alt="Bolsos promocionales">
+                <h3>Bolsos Promocionales</h3>
+                <p>Prácticos y reutilizables, ideales para campañas ecológicas.</p>
+            </div>
+
+            <div class="producto" data-category="accesorios">
+                <img src="https://picsum.photos/id/60/400/300" alt="Llaveros personalizados">
+                <h3>Llaveros Personalizados</h3>
+                <p>Un detalle práctico y económico para tus clientes.</p>
+            </div>
+        </div>
+    </section>
+    <div class="centrado botones-navegacion">
+            <label class="btn-label" onclick="window.location.href='index.html'">Inicio</label>
+            <label class="btn-label" onclick="window.location.href='contacto.html'">Contacto</label>
+            <label class="btn-label" onclick="window.location.href='portafolio.html'">Portafolio</label>
+            <label class="btn-label" onclick="window.location.href='clientes.html'">Clientes</label>
+            <label class="btn-label" onclick="window.location.href='nosotros.html'">Nosotros</label>
+            <label class="btn-label" onclick="window.location.href='material-pop.html'">Material POP</label>
+            <label class="btn-label" onclick="window.location.href='testimonio.html'">Testimonios</label>
+            <label class="btn-label" onclick="window.location.href='servicios.html'">Servicios</label>
+            <label class="btn-label" onclick="window.location.href='activaciones.html'">Activaciones</label>
+    </div>
+    <footer>
+        <p>© 2025 MI MARCA - Todos los derechos reservados</p>
+    </footer>
+    <script src="../javascript/merchandising.js"></script>
+</body>
+</html>

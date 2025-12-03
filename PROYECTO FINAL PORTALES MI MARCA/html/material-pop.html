@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Material POP</title>
+    <link rel="stylesheet" href="../css/material-pop.css">
+</head>
+<body>
+     <header>
+        <div class="logo">
+            <img src="../imagenes/Logo.jpg" alt="Logo Mi Marca" class="logo-img">
+            <h1>MI MARCA</h1>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="contacto.html" class="activo">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<section class="pop-section">
+    <h2>Material POP</h2>
+    <p class="descripcion">
+        Ofrecemos soluciones de Publicidad en el Punto de Venta (POP) para potenciar la presencia visual de tu marca,
+        atraer clientes y mejorar la experiencia en tus espacios comerciales.
+    </p>
+
+    <div class="pop-grid">
+
+        <div class="card">
+            <img src="../Imagenes/rollup.jpg" alt="Roll Up">
+            <h3>Roll-Up</h3>
+            <p>Ideal para activaciones y puntos de venta.</p>
+            <button class="btn-cotizar" data-producto="Roll-Up">Cotizar</button>
+        </div>
+
+        <div class="card">
+            <img src="../Imagenes/display.jpg" alt="Display">
+            <h3>Display Publicitario</h3>
+            <p>Perfecto para exhibir productos y promociones.</p>
+            <button class="btn-cotizar" data-producto="Display Publicitario">Cotizar</button>
+        </div>
+
+        <div class="card">
+            <img src="../Imagenes/banner.jpg" alt="Banner">
+            <h3>Banner</h3>
+            <p>Excelente opción para destacar tu marca.</p>
+            <button class="btn-cotizar" data-producto="Banner">Cotizar</button>
+        </div>
+
+        <div class="card">
+            <img src="../Imagenes/stand.jpeg" alt="Stand">
+            <h3>Stand Promocional</h3>
+            <p>Diseñados para activaciones y ferias.</p>
+            <button class="btn-cotizar" data-producto="Stand Promocional">Cotizar</button>
+        </div>
+
+        <div class="card">
+            <img src="../Imagenes/volantes.jpg" alt="Volantes">
+            <h3>Volantes</h3>
+            <p>Para promover servicios y productos.</p>
+            <button class="btn-cotizar" data-producto="Volantes">Cotizar</button>
+        </div>
+
+        <div class="card">
+            <img src="../Imagenes/exhibidores.jpeg" alt="Exhibidor">
+            <h3>Exhibidores</h3>
+            <p>Ideales para mostrar productos destacados.</p>
+            <button class="btn-cotizar" data-producto="Exhibidor">Cotizar</button>
+        </div>
+
+    </div>
+</section>
+<div class="modal" id="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+
+        <h3 id="titulo-producto">Cotizar Material POP</h3>
+
+        <form id="form-cotizar">
+            <label>Nombre:</label>
+            <input type="text" required>
+
+            <label>Correo:</label>
+            <input type="email" required>
+
+            <label>Cantidad:</label>
+            <input type="number" min="1" required>
+
+            <button type="submit" class="btn-enviar">Enviar Solicitud</button>
+        </form>
+
+    </div>
+</div>
+
+<div class="centrado botones-navegacion">
+            <label class="btn-label" onclick="window.location.href='index.html'">Inicio</label>
+            <label class="btn-label" onclick="window.location.href='contacto.html'">Contacto</label>
+            <label class="btn-label" onclick="window.location.href='portafolio.html'">Portafolio</label>
+            <label class="btn-label" onclick="window.location.href='clientes.html'">Clientes</label>
+            <label class="btn-label" onclick="window.location.href='nosotros.html'">Nosotros</label>
+            <label class="btn-label" onclick="window.location.href='merchandising.html'">Merchandising</label>
+            <label class="btn-label" onclick="window.location.href='testimonio.html'">Testimonios</label>
+            <label class="btn-label" onclick="window.location.href='servicios.html'">Servicios</label>
+            <label class="btn-label" onclick="window.location.href='activaciones.html'">Activaciones</label>
+</div>
+
+<footer id="contacto">
+    <p>© 2025 MI MARCA - Todos los derechos reservados</p>
+</footer>
+
+<script src="../javascript/material-pop.js"></script>
+</body>
+</html>
