@@ -1,9 +1,7 @@
-
 const state = {
   activeCategories: new Set(), 
   query: ""
 };
-
 
 function applyFilters() {
   const productos = document.querySelectorAll(".producto");

@@ -1,4 +1,3 @@
-
 document.addEventListener("scroll", () => {
     const grid = document.querySelector(".grid-proyectos");
     if (!grid) return;
@@ -14,4 +13,3 @@ document.addEventListener("DOMContentLoaded", () => {
         grid.classList.add("visible");
     }
 });
-
